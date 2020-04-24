@@ -4,12 +4,11 @@ html {
     color: #222;
     font-size: 1.5em;
     line-height: 1.4;
-    max-width: 800px;
+    max-width: 1200px;
     margin:auto;
 }
 
 ul {
-
     list-style: none;
     margin-left:0;
     padding-left:0;
@@ -18,8 +17,22 @@ ul {
     color: white;
     background-color: #055f71;
     align-items: center;
-    justify-items: center;
+    justify-items: left;
  }
+ 
+.logo {
+    object-fit: cover;
+    width: 50%;
+    height: 50%;
+    border: #222;
+}
+
+.telephone {
+    grid-column: span 4;
+    column-span: all;
+    justify-items: right;
+    color: white;
+}
 
 article {
     display: grid;
