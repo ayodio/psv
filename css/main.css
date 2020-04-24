@@ -28,10 +28,9 @@ ul {
 }
 
 .telephone {
-    grid-column: span 4;
-    column-span: all;
-    justify-items: right;
+    grid-column-start: 4;
     color: white;
+    justify-self: right;
 }
 
 article {
