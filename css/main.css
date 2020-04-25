@@ -6,8 +6,8 @@ html {
     font-size: 1.5em;
     line-height: 1.4;
     max-width: 1200px;
-    margin:auto;
     background: #eee;
+    margin: auto;
     padding: 2px 4px;
     vertical-align: text-bottom;
 }
@@ -23,6 +23,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     background-color: #055f71;
+    
 
 }
 a {
@@ -69,7 +70,6 @@ article {
 }
 
 h1 {
-    grid-column: span 3;
     margin-top: 1em;
     padding-top: 1em;
 }
