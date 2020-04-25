@@ -1,9 +1,22 @@
+
+
+
 html {
     color: #222;
     font-size: 1.5em;
     line-height: 1.4;
     max-width: 1200px;
     margin:auto;
+    background: #eee;
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+
+body {
+    font-family: "arial";
+    line-height: 1.5;
+    color: #555;
+    
 }
 
 a {
@@ -19,12 +32,14 @@ ul {
     background-color: #055f71;
     align-items: center;
     justify-items: left;
+    margin-top: 0em;
  }
  
 .logopsv {
-    object-fit: cover;
     width: 50%;
     height: 100%;
+    grid-row: span 2;
+    
 }
 
 .logofalc {
@@ -43,10 +58,14 @@ ul {
 article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    color: #333;
+    
 }
 
 h1 {
     grid-column: span 3;
+    margin-top: 1em;
+    padding-top: 1em;
 }
 
 audio {
