@@ -19,39 +19,45 @@ body {
     
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    background-color: #055f71;
+
+}
 a {
     color: white;
 }
 ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     list-style: none;
     margin-left:0;
     padding-left:0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     color: white;
-    background-color: #055f71;
     align-items: center;
-    justify-items: left;
-    margin-top: 0em;
+    justify-items: center;
+    
  }
  
 .logopsv {
-    width: 50%;
+    width: 100%;
     height: 100%;
     grid-row: span 2;
     
 }
 
 .logofalc {
-    width: 25%;
-    height: 100%;
+    grid-column-start: 3;
+    width: 50%;
+    height: auto;
     justify-self: right;
     margin-top: 5%;
     margin-right: 5%;
 }
 
 .telephone {
-    grid-column-start: 5;
+    grid-column-start: 3;
     justify-self: right;
 }
 
