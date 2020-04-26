@@ -1,31 +1,37 @@
 html {
     color: #222;
     font-size: 1.5em;
-    line-height: 1.4;
+    line-height: 1.5;
     max-width: 1200px;
     background: #eee;
     margin: auto;
     padding: 2px 4px;
     vertical-align: text-bottom;
+    
 }
 
 body {
     font-family: "arial";
     line-height: 1.5;
     color: #555;
+    min-width: 320px; 
     
 }
 
 header {
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 100px 5fr 100px;
     background-color: #055f71;
     
 
 }
+
 a {
     color: white;
+    text-decoration: none;
+
 }
+
 ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -43,23 +49,17 @@ ul {
     height: 100px;
     grid-row: span 2;
     margin: auto;
-    
-
+     
 }
 
 .logofalc {
     width: auto;
     height: 100px;
-    margin: auto;
+    margin: 10px 10px 10px 0px;
+    align-self: center;
+    justify-self: center;
 }
 
-.telephone {
-    grid-column-start: 3;
-    justify-self: right;
-    height: 1;
-    
-
-}
 
 article {
     display: grid;
@@ -97,7 +97,7 @@ p {
   max-height: 100%;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 950px) {
 
     ul {
         display: grid;
@@ -107,7 +107,7 @@ p {
 
     .logofalc {
         width: auto;
-        height: 50px;
+        height: 40px;
         margin-top: 10px;
     }
 
@@ -115,8 +115,26 @@ p {
         font-size: 0.5em;
     }
 
-@viewport { 
+@media screen and (max-width: 455px) {
+    
+    .logopsv {
+        width: auto;
+        height: 40px;
+}
+
+    header {
+        font-size: 0.5em;
+    }
+}
+ @viewport { 
         width: device-width; 
         zoom: 1; 
-        }
+}
+
+ @media screen and (max-width: 346px) {
+         
+    ul {
+        font-size: 10px;
+    }
+}
 }
