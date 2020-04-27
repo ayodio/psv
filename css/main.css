@@ -15,6 +15,7 @@ body {
     color: #555;
     min-width: 320px; 
     
+    
 }
     
 
@@ -61,6 +62,10 @@ ul {
     justify-self: center;
 }
 
+main {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 article {
     display: grid;
